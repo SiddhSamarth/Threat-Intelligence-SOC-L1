@@ -110,20 +110,6 @@ Finally, you can examine the `processed_security_events.json` file to see the fu
 
 This file is the core output of the project, showcasing how threat intelligence can transform raw log data into actionable insights for a SOC L1 analyst.
 
-## Visual Aids
-
-To help visualize the project's execution, we have included screenshots directly within the setup and usage instructions above. For a more dynamic presentation, consider creating a video demonstration.
-
-### Video Demonstration (Suggested)
-
-While I cannot directly generate videos, you can create a video demonstration of this project by:
-
-1.  **Recording your screen** as you execute the `generate_logs.py` and `process_logs.py` scripts in your terminal.
-2.  **Showing the contents** of `security_events.log` and `processed_security_events.json` to highlight the changes and enrichment.
-3.  **Narrating** the process and explaining the significance of each step, especially how threat intelligence is applied.
-
-This video can then be uploaded to platforms like YouTube and linked in this README for a more dynamic presentation of the project.
-
 ## Documentation
 
 The `src/theoretical_foundation.md` file contains detailed documentation on:
@@ -142,6 +128,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This project was developed by Siddh Samarth.
 
 *   **GitHub Profile:** [SiddhSamarth](https://github.com/SiddhSamarth)
-*   **GitHub Username:** SiddhSamarth
 
 
