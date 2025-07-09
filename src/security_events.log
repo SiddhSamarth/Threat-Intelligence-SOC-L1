@@ -1,0 +1,500 @@
+Jul 02 10:56:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.188
+Jul 02 11:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.135
+2025-07-02 11:16:12.323337 webserver-01 192.168.1.185 - - [02/Jul/2025:11:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-02 11:26:12.323337 webserver-01 192.168.1.172 - - [02/Jul/2025:11:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-02 11:36:12.323337 webserver-01 192.168.1.134 - - [02/Jul/2025:11:36:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 11:46:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.125 port 12345 ssh2
+2025-07-02 11:56:12.323337 webserver-01 192.168.1.120 - - [02/Jul/2025:11:56:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 02 12:06:12 dns-server-01 dnsmasq[5678]: query[24] google.com from 192.168.1.103
+Jul 02 12:16:12 dns-server-01 dnsmasq[5678]: query[23] google.com from 192.168.1.108
+Jul 02 12:26:12 dns-server-01 dnsmasq[5678]: query[12] phishing-site.net from 192.168.1.124
+Jul 02 12:36:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.140 port 12345 ssh2
+Jul 02 12:46:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.137 port 12345 ssh2
+Jul 02 12:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.161 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 02 13:06:12 dns-server-01 dnsmasq[5678]: query[36] bad-domain.com from 192.168.1.152
+Jul 02 13:16:12 dns-server-01 dnsmasq[5678]: query[84] microsoft.com from 192.168.1.197
+2025-07-02 13:26:12.323337 webserver-01 192.168.1.154 - - [02/Jul/2025:13:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-02 13:36:12.323337 webserver-01 192.168.1.161 - - [02/Jul/2025:13:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-02 13:46:12.323337 webserver-01 192.168.1.200 - - [02/Jul/2025:13:46:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 13:56:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.188 port 12345 ssh2
+Jul 02 14:06:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.190 port 12345 ssh2
+Jul 02 14:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.147 dst=5.6.7.8 dpt=23 act=DENY
+Jul 02 14:26:12 dns-server-01 dnsmasq[5678]: query[71] google.com from 192.168.1.144
+2025-07-02 14:36:12.323337 webserver-01 192.168.1.186 - - [02/Jul/2025:14:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 02 14:46:12 dns-server-01 dnsmasq[5678]: query[47] bad-domain.com from 192.168.1.177
+Jul 02 14:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.172 dst=5.6.7.8 dpt=23 act=DENY
+2025-07-02 15:06:12.323337 webserver-01 192.168.1.181 - - [02/Jul/2025:15:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 15:16:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.152 port 12345 ssh2
+Jul 02 15:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.105 dst=10.0.0.1 dpt=80 act=DENY
+Jul 02 15:36:12 dns-server-01 dnsmasq[5678]: query[74] phishing-site.net from 192.168.1.183
+2025-07-02 15:46:12.323337 webserver-01 192.168.1.109 - - [02/Jul/2025:15:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-02 15:56:12.323337 webserver-01 192.168.1.164 - - [02/Jul/2025:15:56:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 02 16:06:12 dns-server-01 dnsmasq[5678]: query[73] microsoft.com from 192.168.1.176
+Jul 02 16:16:12 dns-server-01 dnsmasq[5678]: query[89] google.com from 192.168.1.199
+Jul 02 16:26:12 dns-server-01 dnsmasq[5678]: query[73] microsoft.com from 192.168.1.153
+Jul 02 16:36:12 dns-server-01 dnsmasq[5678]: query[15] bad-domain.com from 192.168.1.130
+2025-07-02 16:46:12.323337 webserver-01 192.168.1.160 - - [02/Jul/2025:16:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 02 16:56:12 dns-server-01 dnsmasq[5678]: query[95] bad-domain.com from 192.168.1.173
+Jul 02 17:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.148 dst=203.0.113.67 dpt=22 act=ACCEPT
+Jul 02 17:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.186 dst=1.2.3.4 dpt=8080 act=DENY
+Jul 02 17:26:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.188 port 12345 ssh2
+Jul 02 17:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.108 port 12345 ssh2
+2025-07-02 17:46:12.323337 webserver-01 192.168.1.135 - - [02/Jul/2025:17:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 02 17:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.159 dst=10.0.0.1 dpt=8080 act=DENY
+Jul 02 18:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.132 dst=1.2.3.4 dpt=8080 act=DENY
+Jul 02 18:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.178 dst=203.0.113.105 dpt=443 act=ACCEPT
+Jul 02 18:26:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.171
+Jul 02 18:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.137 dst=5.6.7.8 dpt=443 act=DENY
+Jul 02 18:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.124 dst=203.0.113.31 dpt=443 act=ACCEPT
+2025-07-02 18:56:12.323337 webserver-01 192.168.1.175 - - [02/Jul/2025:18:56:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 19:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=5.6.7.8 dpt=23 act=DENY
+Jul 02 19:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.105
+Jul 02 19:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.169 dst=1.2.3.4 dpt=3389 act=DENY
+Jul 02 19:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.152 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 02 19:46:12 dns-server-01 dnsmasq[5678]: query[98] bad-domain.com from 192.168.1.181
+Jul 02 19:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.155 dst=203.0.113.60 dpt=3389 act=ACCEPT
+Jul 02 20:06:12 dns-server-01 dnsmasq[5678]: query[13] bad-domain.com from 192.168.1.151
+Jul 02 20:16:12 dns-server-01 dnsmasq[5678]: query[33] google.com from 192.168.1.194
+Jul 02 20:26:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.142
+Jul 02 20:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.172 port 12345 ssh2
+2025-07-02 20:46:12.323337 webserver-01 192.168.1.171 - - [02/Jul/2025:20:46:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 20:56:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.165 port 12345 ssh2
+Jul 02 21:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.111
+2025-07-02 21:16:12.323337 webserver-01 192.168.1.164 - - [02/Jul/2025:21:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 02 21:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.102 dst=10.0.0.1 dpt=22 act=DENY
+2025-07-02 21:36:12.323337 webserver-01 192.168.1.163 - - [02/Jul/2025:21:36:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 02 21:46:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.136 port 12345 ssh2
+Jul 02 21:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.119 dst=10.0.0.1 dpt=80 act=DENY
+Jul 02 22:06:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.174 port 12345 ssh2
+Jul 02 22:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.119 dst=203.0.113.104 dpt=23 act=ACCEPT
+Jul 02 22:26:12 dns-server-01 dnsmasq[5678]: query[55] google.com from 192.168.1.152
+Jul 02 22:36:12 dns-server-01 dnsmasq[5678]: query[19] microsoft.com from 192.168.1.102
+2025-07-02 22:46:12.323337 webserver-01 192.168.1.145 - - [02/Jul/2025:22:46:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 02 22:56:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.128 port 12345 ssh2
+Jul 02 23:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.117 dst=1.2.3.4 dpt=23 act=DENY
+Jul 02 23:16:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.143
+Jul 02 23:26:12 dns-server-01 dnsmasq[5678]: query[23] microsoft.com from 192.168.1.194
+Jul 02 23:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.118 dst=203.0.113.163 dpt=8080 act=ACCEPT
+2025-07-02 23:46:12.323337 webserver-01 192.168.1.166 - - [02/Jul/2025:23:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 02 23:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.138 dst=203.0.113.27 dpt=3389 act=ACCEPT
+2025-07-03 00:06:12.323337 webserver-01 192.168.1.173 - - [03/Jul/2025:00:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 00:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.172 dst=1.2.3.4 dpt=22 act=DENY
+Jul 03 00:26:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.128
+2025-07-03 00:36:12.323337 webserver-01 192.168.1.149 - - [03/Jul/2025:00:36:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 03 00:46:12 dns-server-01 dnsmasq[5678]: query[74] microsoft.com from 192.168.1.175
+Jul 03 00:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.123 dst=5.6.7.8 dpt=443 act=DENY
+Jul 03 01:06:12 dns-server-01 dnsmasq[5678]: query[95] google.com from 192.168.1.105
+Jul 03 01:16:12 dns-server-01 dnsmasq[5678]: query[95] microsoft.com from 192.168.1.156
+2025-07-03 01:26:12.323337 webserver-01 192.168.1.127 - - [03/Jul/2025:01:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 01:36:12 dns-server-01 dnsmasq[5678]: query[87] phishing-site.net from 192.168.1.175
+2025-07-03 01:46:12.323337 webserver-01 192.168.1.171 - - [03/Jul/2025:01:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 01:56:12 dns-server-01 dnsmasq[5678]: query[6] google.com from 192.168.1.181
+Jul 03 02:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.167 dst=203.0.113.179 dpt=8080 act=ACCEPT
+2025-07-03 02:16:12.323337 webserver-01 192.168.1.118 - - [03/Jul/2025:02:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 03 02:26:12 dns-server-01 dnsmasq[5678]: query[41] bad-domain.com from 192.168.1.196
+Jul 03 02:36:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.200
+Jul 03 02:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.124 dst=203.0.113.113 dpt=8080 act=ACCEPT
+2025-07-03 02:56:12.323337 webserver-01 192.168.1.188 - - [03/Jul/2025:02:56:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-03 03:06:12.323337 webserver-01 192.168.1.140 - - [03/Jul/2025:03:06:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-03 03:16:12.323337 webserver-01 192.168.1.114 - - [03/Jul/2025:03:16:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-03 03:26:12.323337 webserver-01 192.168.1.161 - - [03/Jul/2025:03:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 03:36:12 dns-server-01 dnsmasq[5678]: query[26] bad-domain.com from 192.168.1.151
+Jul 03 03:46:12 dns-server-01 dnsmasq[5678]: query[5] microsoft.com from 192.168.1.123
+Jul 03 03:56:12 dns-server-01 dnsmasq[5678]: query[24] google.com from 192.168.1.111
+Jul 03 04:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.194 dst=1.2.3.4 dpt=23 act=DENY
+Jul 03 04:16:12 dns-server-01 dnsmasq[5678]: query[24] phishing-site.net from 192.168.1.181
+Jul 03 04:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.118 dst=1.2.3.4 dpt=80 act=DENY
+Jul 03 04:36:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.163 port 12345 ssh2
+2025-07-03 04:46:12.323337 webserver-01 192.168.1.140 - - [03/Jul/2025:04:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 04:56:12 dns-server-01 dnsmasq[5678]: query[54] google.com from 192.168.1.148
+Jul 03 05:06:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.177 port 12345 ssh2
+Jul 03 05:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.163
+Jul 03 05:26:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.103
+Jul 03 05:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.142 port 12345 ssh2
+Jul 03 05:46:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.153
+2025-07-03 05:56:12.323337 webserver-01 192.168.1.198 - - [03/Jul/2025:05:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 06:06:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.127 port 12345 ssh2
+Jul 03 06:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.117 dst=5.6.7.8 dpt=23 act=DENY
+Jul 03 06:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.155 dst=5.6.7.8 dpt=23 act=DENY
+Jul 03 06:36:12 dns-server-01 dnsmasq[5678]: query[72] bad-domain.com from 192.168.1.128
+Jul 03 06:46:12 dns-server-01 dnsmasq[5678]: query[56] google.com from 192.168.1.198
+2025-07-03 06:56:12.323337 webserver-01 192.168.1.147 - - [03/Jul/2025:06:56:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-03 07:06:12.323337 webserver-01 192.168.1.135 - - [03/Jul/2025:07:06:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 07:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.127 dst=10.0.0.1 dpt=22 act=DENY
+Jul 03 07:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.138 dst=1.2.3.4 dpt=23 act=DENY
+Jul 03 07:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.185 dst=5.6.7.8 dpt=80 act=DENY
+Jul 03 07:46:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.200
+Jul 03 07:56:12 dns-server-01 dnsmasq[5678]: query[45] bad-domain.com from 192.168.1.187
+Jul 03 08:06:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.184
+Jul 03 08:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.149 dst=1.2.3.4 dpt=22 act=DENY
+Jul 03 08:26:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.161
+Jul 03 08:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.199 dst=203.0.113.102 dpt=8080 act=ACCEPT
+Jul 03 08:46:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.189
+Jul 03 08:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.179 dst=203.0.113.15 dpt=8080 act=ACCEPT
+Jul 03 09:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.141 dst=203.0.113.212 dpt=23 act=ACCEPT
+2025-07-03 09:16:12.323337 webserver-01 192.168.1.102 - - [03/Jul/2025:09:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 09:26:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.175 port 12345 ssh2
+Jul 03 09:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.197 dst=203.0.113.90 dpt=23 act=ACCEPT
+Jul 03 09:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.127 dst=10.0.0.1 dpt=443 act=DENY
+Jul 03 09:56:12 dns-server-01 dnsmasq[5678]: query[86] bad-domain.com from 192.168.1.175
+Jul 03 10:06:12 dns-server-01 dnsmasq[5678]: query[6] bad-domain.com from 192.168.1.191
+Jul 03 10:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.128 dst=10.0.0.1 dpt=23 act=DENY
+2025-07-03 10:26:12.323337 webserver-01 192.168.1.182 - - [03/Jul/2025:10:26:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-03 10:36:12.323337 webserver-01 192.168.1.139 - - [03/Jul/2025:10:36:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 03 10:46:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.146 port 12345 ssh2
+Jul 03 10:56:12 dns-server-01 dnsmasq[5678]: query[85] google.com from 192.168.1.130
+Jul 03 11:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.109
+Jul 03 11:16:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.164
+2025-07-03 11:26:12.323337 webserver-01 192.168.1.154 - - [03/Jul/2025:11:26:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 03 11:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.159 dst=5.6.7.8 dpt=3389 act=DENY
+Jul 03 11:46:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.105
+Jul 03 11:56:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.113 port 12345 ssh2
+Jul 03 12:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.192 dst=1.2.3.4 dpt=443 act=DENY
+Jul 03 12:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.123
+Jul 03 12:26:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.183 port 12345 ssh2
+Jul 03 12:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.101 port 12345 ssh2
+Jul 03 12:46:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.135 port 12345 ssh2
+Jul 03 12:56:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.178
+Jul 03 13:06:12 dns-server-01 dnsmasq[5678]: query[17] phishing-site.net from 192.168.1.146
+2025-07-03 13:16:12.323337 webserver-01 192.168.1.145 - - [03/Jul/2025:13:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-03 13:26:12.323337 webserver-01 192.168.1.197 - - [03/Jul/2025:13:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 13:36:12 dns-server-01 dnsmasq[5678]: query[62] bad-domain.com from 192.168.1.188
+Jul 03 13:46:12 dns-server-01 dnsmasq[5678]: query[34] phishing-site.net from 192.168.1.149
+2025-07-03 13:56:12.323337 webserver-01 192.168.1.131 - - [03/Jul/2025:13:56:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 03 14:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.195 dst=5.6.7.8 dpt=22 act=DENY
+Jul 03 14:16:12 dns-server-01 dnsmasq[5678]: query[39] microsoft.com from 192.168.1.185
+Jul 03 14:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.128 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 03 14:36:12 dns-server-01 dnsmasq[5678]: query[18] google.com from 192.168.1.170
+Jul 03 14:46:12 dns-server-01 dnsmasq[5678]: query[19] bad-domain.com from 192.168.1.155
+2025-07-03 14:56:12.323337 webserver-01 192.168.1.190 - - [03/Jul/2025:14:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 15:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.115
+Jul 03 15:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.174 dst=5.6.7.8 dpt=3389 act=DENY
+Jul 03 15:26:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.127
+Jul 03 15:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.172 dst=5.6.7.8 dpt=3389 act=DENY
+2025-07-03 15:46:12.323337 webserver-01 192.168.1.165 - - [03/Jul/2025:15:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 03 15:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.193 dst=10.0.0.1 dpt=23 act=DENY
+2025-07-03 16:06:12.323337 webserver-01 192.168.1.163 - - [03/Jul/2025:16:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 16:16:12 dns-server-01 dnsmasq[5678]: query[64] google.com from 192.168.1.121
+2025-07-03 16:26:12.323337 webserver-01 192.168.1.191 - - [03/Jul/2025:16:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 16:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.184 dst=5.6.7.8 dpt=443 act=DENY
+2025-07-03 16:46:12.323337 webserver-01 192.168.1.172 - - [03/Jul/2025:16:46:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 16:56:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.187
+Jul 03 17:06:12 dns-server-01 dnsmasq[5678]: query[6] microsoft.com from 192.168.1.104
+Jul 03 17:16:12 dns-server-01 dnsmasq[5678]: query[37] microsoft.com from 192.168.1.112
+Jul 03 17:26:12 dns-server-01 dnsmasq[5678]: query[15] bad-domain.com from 192.168.1.146
+Jul 03 17:36:12 dns-server-01 dnsmasq[5678]: query[28] google.com from 192.168.1.140
+2025-07-03 17:46:12.323337 webserver-01 192.168.1.150 - - [03/Jul/2025:17:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-03 17:56:12.323337 webserver-01 192.168.1.154 - - [03/Jul/2025:17:56:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 03 18:06:12 dns-server-01 dnsmasq[5678]: query[33] google.com from 192.168.1.151
+2025-07-03 18:16:12.323337 webserver-01 192.168.1.160 - - [03/Jul/2025:18:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 18:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.135 dst=1.2.3.4 dpt=443 act=DENY
+Jul 03 18:36:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.154
+Jul 03 18:46:12 dns-server-01 dnsmasq[5678]: query[52] microsoft.com from 192.168.1.135
+Jul 03 18:56:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.102
+Jul 03 19:06:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.145
+Jul 03 19:16:12 dns-server-01 dnsmasq[5678]: query[78] bad-domain.com from 192.168.1.195
+Jul 03 19:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=5.6.7.8 dpt=22 act=DENY
+Jul 03 19:36:12 dns-server-01 dnsmasq[5678]: query[79] microsoft.com from 192.168.1.144
+Jul 03 19:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.143 dst=10.0.0.1 dpt=80 act=DENY
+2025-07-03 19:56:12.323337 webserver-01 192.168.1.126 - - [03/Jul/2025:19:56:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-03 20:06:12.323337 webserver-01 192.168.1.102 - - [03/Jul/2025:20:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 20:16:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.141 port 12345 ssh2
+2025-07-03 20:26:12.323337 webserver-01 192.168.1.134 - - [03/Jul/2025:20:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-03 20:36:12.323337 webserver-01 192.168.1.198 - - [03/Jul/2025:20:36:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 03 20:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.142 dst=203.0.113.103 dpt=22 act=ACCEPT
+Jul 03 20:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.114 dst=10.0.0.1 dpt=443 act=DENY
+Jul 03 21:06:12 dns-server-01 dnsmasq[5678]: query[97] phishing-site.net from 192.168.1.161
+Jul 03 21:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.105 dst=10.0.0.1 dpt=443 act=DENY
+2025-07-03 21:26:12.323337 webserver-01 192.168.1.130 - - [03/Jul/2025:21:26:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 03 21:36:12 dns-server-01 dnsmasq[5678]: query[84] phishing-site.net from 192.168.1.169
+2025-07-03 21:46:12.323337 webserver-01 192.168.1.178 - - [03/Jul/2025:21:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-03 21:56:12.323337 webserver-01 192.168.1.139 - - [03/Jul/2025:21:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 03 22:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.188 dst=203.0.113.228 dpt=22 act=ACCEPT
+Jul 03 22:16:12 dns-server-01 dnsmasq[5678]: query[2] bad-domain.com from 192.168.1.189
+Jul 03 22:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.182 dst=203.0.113.145 dpt=3389 act=ACCEPT
+Jul 03 22:36:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.109
+2025-07-03 22:46:12.323337 webserver-01 192.168.1.143 - - [03/Jul/2025:22:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 03 22:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.128 dst=203.0.113.21 dpt=22 act=ACCEPT
+2025-07-03 23:06:12.323337 webserver-01 192.168.1.167 - - [03/Jul/2025:23:06:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 03 23:16:12 dns-server-01 dnsmasq[5678]: query[50] bad-domain.com from 192.168.1.190
+Jul 03 23:26:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.122
+Jul 03 23:36:12 dns-server-01 dnsmasq[5678]: query[71] microsoft.com from 192.168.1.153
+Jul 03 23:46:12 dns-server-01 dnsmasq[5678]: query[50] phishing-site.net from 192.168.1.181
+2025-07-03 23:56:12.323337 webserver-01 192.168.1.124 - - [03/Jul/2025:23:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 04 00:06:12 dns-server-01 dnsmasq[5678]: query[85] microsoft.com from 192.168.1.133
+Jul 04 00:16:12 dns-server-01 dnsmasq[5678]: query[77] phishing-site.net from 192.168.1.183
+2025-07-04 00:26:12.323337 webserver-01 192.168.1.178 - - [04/Jul/2025:00:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-04 00:36:12.323337 webserver-01 192.168.1.144 - - [04/Jul/2025:00:36:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 04 00:46:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.160 port 12345 ssh2
+2025-07-04 00:56:12.323337 webserver-01 192.168.1.154 - - [04/Jul/2025:00:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-04 01:06:12.323337 webserver-01 192.168.1.138 - - [04/Jul/2025:01:06:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 01:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.144
+2025-07-04 01:26:12.323337 webserver-01 192.168.1.113 - - [04/Jul/2025:01:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 01:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.199 dst=10.0.0.1 dpt=23 act=DENY
+Jul 04 01:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.120 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 04 01:56:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.160
+Jul 04 02:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.153
+2025-07-04 02:16:12.323337 webserver-01 192.168.1.138 - - [04/Jul/2025:02:16:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 02:26:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.187 port 12345 ssh2
+2025-07-04 02:36:12.323337 webserver-01 192.168.1.199 - - [04/Jul/2025:02:36:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 04 02:46:12 dns-server-01 dnsmasq[5678]: query[97] google.com from 192.168.1.137
+Jul 04 02:56:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.180 port 12345 ssh2
+Jul 04 03:06:12 dns-server-01 dnsmasq[5678]: query[81] microsoft.com from 192.168.1.165
+Jul 04 03:16:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.192 port 12345 ssh2
+2025-07-04 03:26:12.323337 webserver-01 192.168.1.177 - - [04/Jul/2025:03:26:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 03:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.155 dst=5.6.7.8 dpt=3389 act=DENY
+Jul 04 03:46:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.128 port 12345 ssh2
+2025-07-04 03:56:12.323337 webserver-01 192.168.1.164 - - [04/Jul/2025:03:56:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-04 04:06:12.323337 webserver-01 192.168.1.174 - - [04/Jul/2025:04:06:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 04:16:12 dns-server-01 dnsmasq[5678]: query[85] bad-domain.com from 192.168.1.184
+Jul 04 04:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.134 dst=10.0.0.1 dpt=80 act=DENY
+2025-07-04 04:36:12.323337 webserver-01 192.168.1.125 - - [04/Jul/2025:04:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 04:46:12 dns-server-01 dnsmasq[5678]: query[59] bad-domain.com from 192.168.1.151
+Jul 04 04:56:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.140 port 12345 ssh2
+2025-07-04 05:06:12.323337 webserver-01 192.168.1.166 - - [04/Jul/2025:05:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-04 05:16:12.323337 webserver-01 192.168.1.137 - - [04/Jul/2025:05:16:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 04 05:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.181 dst=5.6.7.8 dpt=80 act=DENY
+Jul 04 05:36:12 dns-server-01 dnsmasq[5678]: query[35] microsoft.com from 192.168.1.167
+Jul 04 05:46:12 dns-server-01 dnsmasq[5678]: query[23] microsoft.com from 192.168.1.100
+2025-07-04 05:56:12.323337 webserver-01 192.168.1.134 - - [04/Jul/2025:05:56:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 04 06:06:12 dns-server-01 dnsmasq[5678]: query[54] google.com from 192.168.1.187
+Jul 04 06:16:12 dns-server-01 dnsmasq[5678]: query[82] phishing-site.net from 192.168.1.170
+2025-07-04 06:26:12.323337 webserver-01 192.168.1.134 - - [04/Jul/2025:06:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-04 06:36:12.323337 webserver-01 192.168.1.130 - - [04/Jul/2025:06:36:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 06:46:12 dns-server-01 dnsmasq[5678]: query[75] bad-domain.com from 192.168.1.179
+Jul 04 06:56:12 dns-server-01 dnsmasq[5678]: query[97] bad-domain.com from 192.168.1.128
+Jul 04 07:06:12 dns-server-01 dnsmasq[5678]: query[56] bad-domain.com from 192.168.1.182
+Jul 04 07:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.176 dst=5.6.7.8 dpt=3389 act=DENY
+Jul 04 07:26:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.182 port 12345 ssh2
+Jul 04 07:36:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.166 port 12345 ssh2
+Jul 04 07:46:12 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.107 port 12345 ssh2
+Jul 04 07:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.148 dst=10.0.0.1 dpt=80 act=DENY
+2025-07-04 08:06:12.323337 webserver-01 192.168.1.193 - - [04/Jul/2025:08:06:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 08:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.152
+2025-07-04 08:26:12.323337 webserver-01 192.168.1.185 - - [04/Jul/2025:08:26:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 08:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.178 dst=10.0.0.1 dpt=8080 act=DENY
+Jul 04 08:46:12 dns-server-01 dnsmasq[5678]: query[22] bad-domain.com from 192.168.1.116
+Jul 04 08:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.107 dst=5.6.7.8 dpt=443 act=DENY
+2025-07-04 09:06:12.323337 webserver-01 192.168.1.199 - - [04/Jul/2025:09:06:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-04 09:16:12.323337 webserver-01 192.168.1.133 - - [04/Jul/2025:09:16:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 09:26:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.176 port 12345 ssh2
+Jul 04 09:36:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.123
+Jul 04 09:46:12 dns-server-01 dnsmasq[5678]: query[61] google.com from 192.168.1.125
+2025-07-04 09:56:12.323337 webserver-01 192.168.1.199 - - [04/Jul/2025:09:56:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 10:06:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.103 port 12345 ssh2
+2025-07-04 10:16:12.323337 webserver-01 192.168.1.185 - - [04/Jul/2025:10:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 10:26:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.157 port 12345 ssh2
+Jul 04 10:36:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.111 port 12345 ssh2
+Jul 04 10:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.198 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 04 10:56:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.200 port 12345 ssh2
+2025-07-04 11:06:12.323337 webserver-01 192.168.1.149 - - [04/Jul/2025:11:06:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 04 11:16:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.111
+2025-07-04 11:26:12.323337 webserver-01 192.168.1.124 - - [04/Jul/2025:11:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-04 11:36:12.323337 webserver-01 192.168.1.132 - - [04/Jul/2025:11:36:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-04 11:46:12.323337 webserver-01 192.168.1.134 - - [04/Jul/2025:11:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-04 11:56:12.323337 webserver-01 192.168.1.118 - - [04/Jul/2025:11:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+2025-07-04 12:06:12.323337 webserver-01 192.168.1.136 - - [04/Jul/2025:12:06:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-04 12:16:12.323337 webserver-01 192.168.1.135 - - [04/Jul/2025:12:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 12:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.153 dst=203.0.113.135 dpt=3389 act=ACCEPT
+Jul 04 12:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=10.0.0.1 dpt=22 act=DENY
+Jul 04 12:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.150 dst=1.2.3.4 dpt=23 act=DENY
+Jul 04 12:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.100 dst=1.2.3.4 dpt=23 act=DENY
+Jul 04 13:06:12 dns-server-01 dnsmasq[5678]: query[56] google.com from 192.168.1.159
+Jul 04 13:16:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.121 port 12345 ssh2
+Jul 04 13:26:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.132 port 12345 ssh2
+Jul 04 13:36:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.146 port 12345 ssh2
+Jul 04 13:46:12 dns-server-01 dnsmasq[5678]: query[40] bad-domain.com from 192.168.1.185
+2025-07-04 13:56:12.323337 webserver-01 192.168.1.127 - - [04/Jul/2025:13:56:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 04 14:06:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.119
+Jul 04 14:16:12 dns-server-01 dnsmasq[5678]: query[74] bad-domain.com from 192.168.1.160
+Jul 04 14:26:12 dns-server-01 dnsmasq[5678]: query[13] google.com from 192.168.1.111
+2025-07-04 14:36:12.323337 webserver-01 192.168.1.125 - - [04/Jul/2025:14:36:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 14:46:12 dns-server-01 dnsmasq[5678]: query[45] phishing-site.net from 192.168.1.151
+Jul 04 14:56:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.159 port 12345 ssh2
+Jul 04 15:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.181 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 04 15:16:12 dns-server-01 dnsmasq[5678]: query[64] google.com from 192.168.1.166
+Jul 04 15:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.134 dst=10.0.0.1 dpt=8080 act=DENY
+Jul 04 15:36:12 dns-server-01 dnsmasq[5678]: query[38] phishing-site.net from 192.168.1.155
+Jul 04 15:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.106 dst=203.0.113.133 dpt=23 act=ACCEPT
+2025-07-04 15:56:12.323337 webserver-01 192.168.1.101 - - [04/Jul/2025:15:56:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-04 16:06:12.323337 webserver-01 192.168.1.164 - - [04/Jul/2025:16:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 16:16:12 dns-server-01 dnsmasq[5678]: query[49] phishing-site.net from 192.168.1.100
+2025-07-04 16:26:12.323337 webserver-01 192.168.1.138 - - [04/Jul/2025:16:26:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 16:36:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.132 port 12345 ssh2
+Jul 04 16:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.156 dst=1.2.3.4 dpt=80 act=DENY
+Jul 04 16:56:12 dns-server-01 dnsmasq[5678]: query[97] bad-domain.com from 192.168.1.120
+Jul 04 17:06:12 dns-server-01 dnsmasq[5678]: query[32] microsoft.com from 192.168.1.135
+Jul 04 17:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.117 dst=5.6.7.8 dpt=23 act=DENY
+Jul 04 17:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.181 dst=10.0.0.1 dpt=443 act=DENY
+Jul 04 17:36:12 dns-server-01 dnsmasq[5678]: query[83] phishing-site.net from 192.168.1.185
+Jul 04 17:46:12 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.133 port 12345 ssh2
+Jul 04 17:56:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.123 port 12345 ssh2
+Jul 04 18:06:12 dns-server-01 dnsmasq[5678]: query[76] bad-domain.com from 192.168.1.190
+Jul 04 18:16:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.131
+Jul 04 18:26:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.199
+Jul 04 18:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.191 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 04 18:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.111 dst=10.0.0.1 dpt=23 act=DENY
+Jul 04 18:56:12 dns-server-01 dnsmasq[5678]: query[31] google.com from 192.168.1.145
+Jul 04 19:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.145 dst=203.0.113.79 dpt=22 act=ACCEPT
+2025-07-04 19:16:12.323337 webserver-01 192.168.1.148 - - [04/Jul/2025:19:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-04 19:26:12.323337 webserver-01 192.168.1.133 - - [04/Jul/2025:19:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 19:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.194 dst=203.0.113.69 dpt=80 act=ACCEPT
+Jul 04 19:46:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.116 port 12345 ssh2
+Jul 04 19:56:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.187
+Jul 04 20:06:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.185 port 12345 ssh2
+Jul 04 20:16:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.179 port 12345 ssh2
+Jul 04 20:26:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.174 port 12345 ssh2
+Jul 04 20:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.108 port 12345 ssh2
+Jul 04 20:46:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.159
+Jul 04 20:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.181 dst=203.0.113.13 dpt=8080 act=ACCEPT
+Jul 04 21:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.144 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 04 21:16:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.174 port 12345 ssh2
+2025-07-04 21:26:12.323337 webserver-01 192.168.1.143 - - [04/Jul/2025:21:26:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 21:36:12 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.117 port 12345 ssh2
+Jul 04 21:46:12 dns-server-01 dnsmasq[5678]: query[11] microsoft.com from 192.168.1.130
+Jul 04 21:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.187 dst=5.6.7.8 dpt=23 act=DENY
+2025-07-04 22:06:12.323337 webserver-01 192.168.1.180 - - [04/Jul/2025:22:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 22:16:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.116 port 12345 ssh2
+2025-07-04 22:26:12.323337 webserver-01 192.168.1.131 - - [04/Jul/2025:22:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 04 22:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.168 port 12345 ssh2
+Jul 04 22:46:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.178 port 12345 ssh2
+Jul 04 22:56:12 dns-server-01 dnsmasq[5678]: query[9] google.com from 192.168.1.162
+2025-07-04 23:06:12.323337 webserver-01 192.168.1.186 - - [04/Jul/2025:23:06:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 04 23:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.128 dst=5.6.7.8 dpt=22 act=DENY
+Jul 04 23:26:12 dns-server-01 dnsmasq[5678]: query[33] google.com from 192.168.1.194
+Jul 04 23:36:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.172
+2025-07-04 23:46:12.323337 webserver-01 192.168.1.185 - - [04/Jul/2025:23:46:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 04 23:56:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.102
+2025-07-05 00:06:12.323337 webserver-01 192.168.1.148 - - [05/Jul/2025:00:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 00:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.144
+2025-07-05 00:26:12.323337 webserver-01 192.168.1.132 - - [05/Jul/2025:00:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 00:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.190 dst=1.2.3.4 dpt=8080 act=DENY
+Jul 05 00:46:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.159
+2025-07-05 00:56:12.323337 webserver-01 192.168.1.111 - - [05/Jul/2025:00:56:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 01:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.125 dst=5.6.7.8 dpt=22 act=DENY
+Jul 05 01:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=1.2.3.4 dpt=8080 act=DENY
+2025-07-05 01:26:12.323337 webserver-01 192.168.1.147 - - [05/Jul/2025:01:26:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 01:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.175 dst=1.2.3.4 dpt=3389 act=DENY
+Jul 05 01:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.150 dst=203.0.113.31 dpt=23 act=ACCEPT
+Jul 05 01:56:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.180
+Jul 05 02:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=10.0.0.1 dpt=22 act=DENY
+2025-07-05 02:16:12.323337 webserver-01 192.168.1.144 - - [05/Jul/2025:02:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 05 02:26:12 dns-server-01 dnsmasq[5678]: query[100] microsoft.com from 192.168.1.103
+Jul 05 02:36:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.114
+2025-07-05 02:46:12.323337 webserver-01 192.168.1.161 - - [05/Jul/2025:02:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 02:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.112 dst=203.0.113.182 dpt=443 act=ACCEPT
+Jul 05 03:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.117 dst=5.6.7.8 dpt=443 act=DENY
+Jul 05 03:16:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.160 port 12345 ssh2
+Jul 05 03:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.130 dst=10.0.0.1 dpt=23 act=DENY
+2025-07-05 03:36:12.323337 webserver-01 192.168.1.127 - - [05/Jul/2025:03:36:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 03:46:12 dns-server-01 dnsmasq[5678]: query[85] microsoft.com from 192.168.1.136
+Jul 05 03:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.187 dst=1.2.3.4 dpt=8080 act=DENY
+Jul 05 04:06:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.110 port 12345 ssh2
+2025-07-05 04:16:12.323337 webserver-01 192.168.1.153 - - [05/Jul/2025:04:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 04:26:12 dns-server-01 dnsmasq[5678]: query[93] bad-domain.com from 192.168.1.142
+Jul 05 04:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.159 dst=203.0.113.236 dpt=443 act=ACCEPT
+Jul 05 04:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.159 dst=203.0.113.13 dpt=443 act=ACCEPT
+Jul 05 04:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.125 dst=10.0.0.1 dpt=80 act=DENY
+Jul 05 05:06:12 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.174 port 12345 ssh2
+Jul 05 05:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.195 dst=5.6.7.8 dpt=3389 act=DENY
+Jul 05 05:26:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.183
+Jul 05 05:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.199 dst=5.6.7.8 dpt=23 act=DENY
+Jul 05 05:46:12 dns-server-01 dnsmasq[5678]: query[13] bad-domain.com from 192.168.1.147
+Jul 05 05:56:12 dns-server-01 dnsmasq[5678]: query[10] bad-domain.com from 192.168.1.147
+Jul 05 06:06:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.193 port 12345 ssh2
+Jul 05 06:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.143 dst=203.0.113.37 dpt=443 act=ACCEPT
+Jul 05 06:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.191 dst=203.0.113.239 dpt=23 act=ACCEPT
+2025-07-05 06:36:12.323337 webserver-01 192.168.1.105 - - [05/Jul/2025:06:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 06:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.105 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 05 06:56:12 dns-server-01 dnsmasq[5678]: query[51] bad-domain.com from 192.168.1.152
+Jul 05 07:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.109 dst=1.2.3.4 dpt=3389 act=DENY
+Jul 05 07:16:12 dns-server-01 dnsmasq[5678]: query[59] google.com from 192.168.1.104
+Jul 05 07:26:12 dns-server-01 dnsmasq[5678]: query[3] google.com from 192.168.1.189
+2025-07-05 07:36:12.323337 webserver-01 192.168.1.117 - - [05/Jul/2025:07:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 07:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.196 dst=203.0.113.239 dpt=8080 act=ACCEPT
+2025-07-05 07:56:12.323337 webserver-01 192.168.1.102 - - [05/Jul/2025:07:56:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 05 08:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.111 dst=5.6.7.8 dpt=443 act=DENY
+Jul 05 08:16:12 dns-server-01 dnsmasq[5678]: query[16] google.com from 192.168.1.185
+Jul 05 08:26:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.132 port 12345 ssh2
+Jul 05 08:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.156 dst=203.0.113.38 dpt=22 act=ACCEPT
+Jul 05 08:46:12 auth-server-01 sshd[1234]: Accepted password for root from 192.168.1.160 port 12345 ssh2
+Jul 05 08:56:12 dns-server-01 dnsmasq[5678]: query[80] microsoft.com from 192.168.1.139
+Jul 05 09:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.139 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 05 09:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.113
+Jul 05 09:26:12 dns-server-01 dnsmasq[5678]: query[85] phishing-site.net from 192.168.1.131
+Jul 05 09:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.103 dst=1.2.3.4 dpt=443 act=DENY
+2025-07-05 09:46:12.323337 webserver-01 192.168.1.175 - - [05/Jul/2025:09:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 09:56:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.136
+Jul 05 10:06:12 dns-server-01 dnsmasq[5678]: query[57] google.com from 192.168.1.192
+Jul 05 10:16:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.200
+2025-07-05 10:26:12.323337 webserver-01 192.168.1.132 - - [05/Jul/2025:10:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 10:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.101 dst=1.2.3.4 dpt=23 act=DENY
+Jul 05 10:46:12 dns-server-01 dnsmasq[5678]: query[90] bad-domain.com from 192.168.1.149
+Jul 05 10:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.160 dst=10.0.0.1 dpt=23 act=DENY
+2025-07-05 11:06:12.323337 webserver-01 192.168.1.178 - - [05/Jul/2025:11:06:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-05 11:16:12.323337 webserver-01 192.168.1.168 - - [05/Jul/2025:11:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 11:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.112 dst=203.0.113.141 dpt=3389 act=ACCEPT
+Jul 05 11:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.172 dst=1.2.3.4 dpt=23 act=DENY
+2025-07-05 11:46:12.323337 webserver-01 192.168.1.120 - - [05/Jul/2025:11:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 11:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.109 dst=203.0.113.208 dpt=3389 act=ACCEPT
+Jul 05 12:06:12 dns-server-01 dnsmasq[5678]: query[51] bad-domain.com from 192.168.1.164
+Jul 05 12:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.146 dst=1.2.3.4 dpt=443 act=DENY
+Jul 05 12:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.103 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 05 12:36:12 dns-server-01 dnsmasq[5678]: query[19] microsoft.com from 192.168.1.110
+2025-07-05 12:46:12.323337 webserver-01 192.168.1.146 - - [05/Jul/2025:12:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+2025-07-05 12:56:12.323337 webserver-01 192.168.1.194 - - [05/Jul/2025:12:56:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 05 13:06:12 dns-server-01 dnsmasq[5678]: query[43] microsoft.com from 192.168.1.197
+2025-07-05 13:16:12.323337 webserver-01 192.168.1.112 - - [05/Jul/2025:13:16:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 13:26:12 dns-server-01 dnsmasq[5678]: query[71] microsoft.com from 192.168.1.177
+2025-07-05 13:36:12.323337 webserver-01 192.168.1.102 - - [05/Jul/2025:13:36:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-05 13:46:12.323337 webserver-01 192.168.1.174 - - [05/Jul/2025:13:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 13:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.119 dst=10.0.0.1 dpt=3389 act=DENY
+Jul 05 14:06:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.117 port 12345 ssh2
+Jul 05 14:16:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.113
+Jul 05 14:26:12 dns-server-01 dnsmasq[5678]: query[51] bad-domain.com from 192.168.1.130
+Jul 05 14:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.109 port 12345 ssh2
+Jul 05 14:46:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.162 dst=5.6.7.8 dpt=443 act=DENY
+Jul 05 14:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.130 dst=5.6.7.8 dpt=80 act=DENY
+Jul 05 15:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.191 dst=10.0.0.1 dpt=443 act=DENY
+Jul 05 15:16:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.147
+Jul 05 15:26:12 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.121 port 12345 ssh2
+Jul 05 15:36:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.179 port 12345 ssh2
+2025-07-05 15:46:12.323337 webserver-01 192.168.1.104 - - [05/Jul/2025:15:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 15:56:12 dns-server-01 dnsmasq[5678]: query[12] microsoft.com from 192.168.1.190
+Jul 05 16:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.173 dst=10.0.0.1 dpt=23 act=DENY
+2025-07-05 16:16:12.323337 webserver-01 192.168.1.168 - - [05/Jul/2025:16:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 05 16:26:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.173 dst=1.2.3.4 dpt=443 act=DENY
+Jul 05 16:36:12 dns-server-01 dnsmasq[5678]: query[76] bad-domain.com from 192.168.1.118
+Jul 05 16:46:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.149 port 12345 ssh2
+Jul 05 16:56:12 dns-server-01 dnsmasq[5678]: query[57] google.com from 192.168.1.200
+2025-07-05 17:06:12.323337 webserver-01 192.168.1.142 - - [05/Jul/2025:17:06:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+2025-07-05 17:16:12.323337 webserver-01 192.168.1.163 - - [05/Jul/2025:17:16:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-05 17:26:12.323337 webserver-01 192.168.1.198 - - [05/Jul/2025:17:26:12 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 05 17:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.125 dst=203.0.113.60 dpt=23 act=ACCEPT
+2025-07-05 17:46:12.323337 webserver-01 192.168.1.177 - - [05/Jul/2025:17:46:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 05 17:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.183 dst=1.2.3.4 dpt=443 act=DENY
+Jul 05 18:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.114 dst=5.6.7.8 dpt=8080 act=DENY
+Jul 05 18:16:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.143 dst=5.6.7.8 dpt=23 act=DENY
+2025-07-05 18:26:12.323337 webserver-01 192.168.1.119 - - [05/Jul/2025:18:26:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 18:36:12 auth-server-01 sshd[1234]: Invalid user root from 192.168.1.174
+2025-07-05 18:46:12.323337 webserver-01 192.168.1.132 - - [05/Jul/2025:18:46:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "Mozilla/5.0"
+Jul 05 18:56:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.106 port 12345 ssh2
+Jul 05 19:06:12 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.120
+2025-07-05 19:16:12.323337 webserver-01 192.168.1.180 - - [05/Jul/2025:19:16:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-05 19:26:12.323337 webserver-01 192.168.1.198 - - [05/Jul/2025:19:26:12 +0000] "GET /malware/payload.exe HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Jul 05 19:36:12 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.192 port 12345 ssh2
+Jul 05 19:46:12 dns-server-01 dnsmasq[5678]: query[15] bad-domain.com from 192.168.1.144
+Jul 05 19:56:12 dns-server-01 dnsmasq[5678]: query[8] microsoft.com from 192.168.1.190
+2025-07-05 20:06:12.323337 webserver-01 192.168.1.152 - - [05/Jul/2025:20:06:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-05 20:16:12.323337 webserver-01 192.168.1.146 - - [05/Jul/2025:20:16:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Jul 05 20:26:12 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.190
+Jul 05 20:36:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.131 dst=10.0.0.1 dpt=23 act=DENY
+Jul 05 20:46:12 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.190 port 12345 ssh2
+Jul 05 20:56:12 auth-server-01 sshd[1234]: Accepted password for admin from 192.168.1.187 port 12345 ssh2
+Jul 05 21:06:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.196 dst=10.0.0.1 dpt=8080 act=DENY
+Jul 05 21:16:12 dns-server-01 dnsmasq[5678]: query[70] phishing-site.net from 192.168.1.114
+Jul 05 21:26:12 dns-server-01 dnsmasq[5678]: query[63] phishing-site.net from 192.168.1.135
+2025-07-05 21:36:12.323337 webserver-01 192.168.1.197 - - [05/Jul/2025:21:36:12 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+2025-07-05 21:46:12.323337 webserver-01 192.168.1.134 - - [05/Jul/2025:21:46:12 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Jul 05 21:56:12 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.199 dst=203.0.113.149 dpt=22 act=ACCEPT
+Jul 05 22:06:12 dns-server-01 dnsmasq[5678]: query[65] bad-domain.com from 192.168.1.118

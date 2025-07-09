@@ -1,0 +1,142 @@
+
+--- Log Entry 1 ---
+Original: 2025-07-02 10:58:34.468630 webserver-01 192.168.1.107 - - [02/Jul/2025:10:58:34 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Extracted IOCs: {'ips': ['192.168.1.107'], 'domains': [], 'urls': ['/admin/backdoor.php']}
+Enriched Data: {'192.168.1.107': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/admin/backdoor.php': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 5}}}
+
+--- Log Entry 2 ---
+Original: Jul 02 11:08:34 auth-server-01 sshd[1234]: Invalid user test from 192.168.1.134
+Extracted IOCs: {'ips': ['192.168.1.134'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.134': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'reported', 'source': 'AbuseIPDB', 'reports': 6, 'confidence': 28}}}
+
+--- Log Entry 3 ---
+Original: 2025-07-02 11:18:34.468630 webserver-01 192.168.1.171 - - [02/Jul/2025:11:18:34 +0000] "GET /admin/backdoor.php HTTP/1.1" 404 1234 "-" "BadBot/1.0"
+Extracted IOCs: {'ips': ['192.168.1.171'], 'domains': [], 'urls': ['/admin/backdoor.php']}
+Enriched Data: {'192.168.1.171': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/admin/backdoor.php': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 65}}}
+
+--- Log Entry 4 ---
+Original: Jul 02 11:28:34 dns-server-01 dnsmasq[5678]: query[40] phishing-site.net from 192.168.1.164
+Extracted IOCs: {'ips': ['192.168.1.164'], 'domains': ['phishing-site.net'], 'urls': []}
+Enriched Data: {'192.168.1.164': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'phishing-site.net': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 31}}}
+
+--- Log Entry 5 ---
+Original: Jul 02 11:38:34 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.186 dst=10.0.0.1 dpt=8080 act=DENY
+Extracted IOCs: {'ips': ['192.168.1.186', '10.0.0.1'], 'domains': [], 'urls': []}
+Enriched Data: {'10.0.0.1': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 24}, 'abuseipdb': {'reputation': 'malicious', 'source': 'AbuseIPDB', 'reports': 341, 'confidence': 96}}, '192.168.1.186': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 6 ---
+Original: 2025-07-02 11:48:34.468630 webserver-01 192.168.1.130 - - [02/Jul/2025:11:48:34 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Extracted IOCs: {'ips': ['192.168.1.130'], 'domains': [], 'urls': ['/index.html']}
+Enriched Data: {'192.168.1.130': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/index.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 7 ---
+Original: Jul 02 11:58:34 dns-server-01 dnsmasq[5678]: query[96] google.com from 192.168.1.126
+Extracted IOCs: {'ips': ['192.168.1.126'], 'domains': ['google.com'], 'urls': []}
+Enriched Data: {'192.168.1.126': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'google.com': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 8 ---
+Original: Jul 02 12:08:34 auth-server-01 sshd[1234]: Accepted password for user2 from 192.168.1.168 port 12345 ssh2
+Extracted IOCs: {'ips': ['192.168.1.168'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.168': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 9 ---
+Original: Jul 02 12:18:34 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic DENY|1|src=192.168.1.105 dst=5.6.7.8 dpt=80 act=DENY
+Extracted IOCs: {'ips': ['192.168.1.105', '5.6.7.8'], 'domains': [], 'urls': []}
+Enriched Data: {'5.6.7.8': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 38}, 'abuseipdb': {'reputation': 'malicious', 'source': 'AbuseIPDB', 'reports': 62, 'confidence': 73}}, '192.168.1.105': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 10 ---
+Original: Jul 02 12:28:34 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.135 port 12345 ssh2
+Extracted IOCs: {'ips': ['192.168.1.135'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.135': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 202 ---
+Original: 2025-07-03 20:28:34.468630 webserver-01 192.168.1.157 - - [03/Jul/2025:20:28:34 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Extracted IOCs: {'ips': ['192.168.1.157'], 'domains': [], 'urls': ['/about.html']}
+Enriched Data: {'192.168.1.157': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/about.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 203 ---
+Original: 2025-07-03 20:38:34.468630 webserver-01 192.168.1.122 - - [03/Jul/2025:20:38:34 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Extracted IOCs: {'ips': ['192.168.1.122'], 'domains': [], 'urls': ['/about.html']}
+Enriched Data: {'192.168.1.122': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/about.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 204 ---
+Original: Jul 03 20:48:34 firewall-01 CEF:0|Security|Firewall|1.0|100|Traffic ACCEPT|1|src=192.168.1.185 dst=203.0.113.193 dpt=80 act=ACCEPT
+Extracted IOCs: {'ips': ['192.168.1.185', '203.0.113.193'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.185': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '203.0.113.193': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 205 ---
+Original: Jul 03 20:58:34 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.131 port 12345 ssh2
+Extracted IOCs: {'ips': ['192.168.1.131'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.131': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 206 ---
+Original: Jul 03 21:08:34 dns-server-01 dnsmasq[5678]: query[64] bad-domain.com from 192.168.1.113
+Extracted IOCs: {'ips': ['192.168.1.113'], 'domains': ['bad-domain.com'], 'urls': []}
+Enriched Data: {'192.168.1.113': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'bad-domain.com': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 53}}}
+
+--- Log Entry 207 ---
+Original: Jul 03 21:18:34 dns-server-01 dnsmasq[5678]: query[11] phishing-site.net from 192.168.1.132
+Extracted IOCs: {'ips': ['192.168.1.132'], 'domains': ['phishing-site.net'], 'urls': []}
+Enriched Data: {'192.168.1.132': {'virustotal': {'reputation': 'suspicious', 'source': 'VirusTotal', 'detections': 2}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'phishing-site.net': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 61}}}
+
+--- Log Entry 208 ---
+Original: Jul 03 21:28:34 auth-server-01 sshd[1234]: Accepted password for user1 from 192.168.1.150 port 12345 ssh2
+Extracted IOCs: {'ips': ['192.168.1.150'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.150': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 209 ---
+Original: Jul 03 21:38:34 dns-server-01 dnsmasq[5678]: query[99] phishing-site.net from 192.168.1.166
+Extracted IOCs: {'ips': ['192.168.1.166'], 'domains': ['phishing-site.net'], 'urls': []}
+Enriched Data: {'192.168.1.166': {'virustotal': {'reputation': 'suspicious', 'source': 'VirusTotal', 'detections': 2}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'phishing-site.net': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 22}}}
+
+--- Log Entry 210 ---
+Original: 2025-07-03 21:48:34.468630 webserver-01 192.168.1.128 - - [03/Jul/2025:21:48:34 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Extracted IOCs: {'ips': ['192.168.1.128'], 'domains': [], 'urls': ['/about.html']}
+Enriched Data: {'192.168.1.128': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/about.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 402 ---
+Original: 2025-07-05 05:48:34.468630 webserver-01 192.168.1.162 - - [05/Jul/2025:05:48:34 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "BadBot/1.0"
+Extracted IOCs: {'ips': ['192.168.1.162'], 'domains': [], 'urls': ['/about.html']}
+Enriched Data: {'192.168.1.162': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/about.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 403 ---
+Original: Jul 05 05:58:34 dns-server-01 dnsmasq[5678]: query[59] phishing-site.net from 192.168.1.179
+Extracted IOCs: {'ips': ['192.168.1.179'], 'domains': ['phishing-site.net'], 'urls': []}
+Enriched Data: {'192.168.1.179': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'phishing-site.net': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 38}}}
+
+--- Log Entry 404 ---
+Original: 2025-07-05 06:08:34.468630 webserver-01 192.168.1.130 - - [05/Jul/2025:06:08:34 +0000] "GET /about.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Extracted IOCs: {'ips': ['192.168.1.130'], 'domains': [], 'urls': ['/about.html']}
+Enriched Data: {'192.168.1.130': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/about.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 405 ---
+Original: 2025-07-05 06:18:34.468630 webserver-01 192.168.1.114 - - [05/Jul/2025:06:18:34 +0000] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0"
+Extracted IOCs: {'ips': ['192.168.1.114'], 'domains': [], 'urls': ['/index.html']}
+Enriched Data: {'192.168.1.114': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, '/index.html': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}}}
+
+--- Log Entry 406 ---
+Original: Jul 05 06:28:34 dns-server-01 dnsmasq[5678]: query[93] bad-domain.com from 192.168.1.173
+Extracted IOCs: {'ips': ['192.168.1.173'], 'domains': ['bad-domain.com'], 'urls': []}
+Enriched Data: {'192.168.1.173': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'bad-domain.com': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 19}}}
+
+--- Log Entry 407 ---
+Original: Jul 05 06:38:34 auth-server-01 sshd[1234]: Accepted password for test from 192.168.1.115 port 12345 ssh2
+Extracted IOCs: {'ips': ['192.168.1.115'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.115': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 408 ---
+Original: Jul 05 06:48:34 auth-server-01 sshd[1234]: Invalid user admin from 192.168.1.186
+Extracted IOCs: {'ips': ['192.168.1.186'], 'domains': [], 'urls': []}
+Enriched Data: {'192.168.1.186': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}}
+
+--- Log Entry 409 ---
+Original: Jul 05 06:58:34 dns-server-01 dnsmasq[5678]: query[22] phishing-site.net from 192.168.1.125
+Extracted IOCs: {'ips': ['192.168.1.125'], 'domains': ['phishing-site.net'], 'urls': []}
+Enriched Data: {'192.168.1.125': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'reported', 'source': 'AbuseIPDB', 'reports': 5, 'confidence': 54}}, 'phishing-site.net': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 35}}}
+
+--- Log Entry 410 ---
+Original: Jul 05 07:08:34 dns-server-01 dnsmasq[5678]: query[7] bad-domain.com from 192.168.1.185
+Extracted IOCs: {'ips': ['192.168.1.185'], 'domains': ['bad-domain.com'], 'urls': []}
+Enriched Data: {'192.168.1.185': {'virustotal': {'reputation': 'clean', 'source': 'VirusTotal', 'detections': 0}, 'abuseipdb': {'reputation': 'clean', 'source': 'AbuseIPDB', 'reports': 0, 'confidence': 0}}, 'bad-domain.com': {'virustotal': {'reputation': 'malicious', 'source': 'VirusTotal', 'detections': 57}}}
+
+Processed logs saved to processed_security_events.json

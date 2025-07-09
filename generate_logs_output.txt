@@ -1,0 +1,1 @@
+Generated security_events.log with 500 entries.
